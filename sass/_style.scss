@@ -34,7 +34,7 @@
   margin: 0 auto;
   margin-top: 10rem;
   border-radius: 2rem;
-  box-shadow: 0 1rem 2rem rgba($bright-blue, 0.15);
+  box-shadow: 0 1rem 2rem rgba($bright-blue, 0.15), 0 2rem 1rem rgba($bright-blue, 0.05);
   text-align: center;
 
   &__Hero {
@@ -108,5 +108,20 @@
     color: $bright-blue;
     }
   }
-  
+  &__button {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      padding: 1.5rem;
+      background-color: $bright-blue;
+      color: white;
+      font-weight: 700;
+      font-size: 1.4rem;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 1rem 2rem rgba($bright-blue, 0.15), 0 2rem 2rem rgba($bright-blue, 0.05);   
+
+  }
 }
