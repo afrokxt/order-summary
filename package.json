@@ -1,0 +1,20 @@
+{
+  "name": "order-summary-challenge",
+  "version": "1.0.0",
+  "description": "Frontend mentor coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afrokxt/order-summary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afrokxt/order-summary/issues"
+  },
+  "homepage": "https://github.com/afrokxt/order-summary#readme"
+}
