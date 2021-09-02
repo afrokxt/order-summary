@@ -28,7 +28,8 @@
 .c-orderSummary {
   z-index: 100;
   width: 40rem;
-  height: 60rem;
+  height: 62rem;
+  padding-bottom: 2rem;
   // margin: 0 auto;
   background-color: #fff;
   margin: 0 auto;
@@ -106,6 +107,11 @@
     font-size: 1.3rem;
     font-weight: 700;
     color: $bright-blue;
+    &:hover, &:active {
+    color: rgba($bright-blue, .7);
+    text-decoration: none;
+
+    }
     }
   }
   &__button {
@@ -123,5 +129,25 @@
       border-radius: 10px;
       box-shadow: 0 1rem 2rem rgba($bright-blue, 0.15), 0 2rem 2rem rgba($bright-blue, 0.05);   
 
+      &:hover, &:active {
+      background-color: rgba($bright-blue, .8);
+      cursor: pointer;
+      }
+
+      &:active {
+      box-shadow: 0 1rem 1rem rgba($bright-blue, 0.25);   
+      transform: translateY(.1rem);
+
+      }
+
+  }
+  &__cancel {
+      text-decoration: none;
+      color: rgba($desaturated-blue, .9);
+      font-weight: 900;
+      font-size: 1.4rem;
+      &:hover, &:active {
+          color: $dark-blue;
+      }
   }
 }

@@ -55,7 +55,8 @@ body {
 .c-orderSummary {
   z-index: 100;
   width: 40rem;
-  height: 60rem;
+  height: 62rem;
+  padding-bottom: 2rem;
   background-color: #fff;
   margin: 0 auto;
   margin-top: 10rem;
@@ -128,6 +129,10 @@ body {
   font-weight: 700;
   color: #3829e0;
 }
+.c-orderSummary .m-plan__link:hover, .c-orderSummary .m-plan__link:active {
+  color: rgba(56, 41, 224, 0.7);
+  text-decoration: none;
+}
 .c-orderSummary__button {
   display: block;
   width: 80%;
@@ -142,6 +147,23 @@ body {
   border: none;
   border-radius: 10px;
   box-shadow: 0 1rem 2rem rgba(56, 41, 224, 0.15), 0 2rem 2rem rgba(56, 41, 224, 0.05);
+}
+.c-orderSummary__button:hover, .c-orderSummary__button:active {
+  background-color: rgba(56, 41, 224, 0.8);
+  cursor: pointer;
+}
+.c-orderSummary__button:active {
+  box-shadow: 0 1rem 1rem rgba(56, 41, 224, 0.25);
+  transform: translateY(0.1rem);
+}
+.c-orderSummary__cancel {
+  text-decoration: none;
+  color: rgba(114, 128, 167, 0.9);
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.c-orderSummary__cancel:hover, .c-orderSummary__cancel:active {
+  color: #1f2f56;
 }
 
 /*# sourceMappingURL=style.css.map */
